@@ -11,7 +11,7 @@ name: odh-stable
 package: rhods-operator
 schema: olm.channel
 ---
-image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:20ffb41f50fe1bdecee629eaf752c9685c50350b3da284910795934463198d55
+image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:f0f3eb1f9433be26aa4b8e87b19d469441cceeaec956619844499c86d9a339e9
 name: rhods-operator.3.6.0
 package: rhods-operator
 properties:
@@ -298,8 +298,8 @@ properties:
       capabilities: Full Lifecycle
       categories: AI/Machine Learning, Big Data
       certified: "False"
-      containerImage: quay.io/opendatahub/opendatahub-operator@sha256:edc4d2fae47eb13bd5da1194db8e34db4286141938c413871c944ce2370c19a7
-      createdAt: "2026-10-13T09:14:13Z"
+      containerImage: quay.io/opendatahub/opendatahub-operator@sha256:94143951db38a071e936b0c2320a14389e360d3a182dff9513eb4bb4ed99c583
+      createdAt: "2026-10-13T10:32:24Z"
       description: Operator for deployment and management of Red Hat OpenShift AI
       feast-cronjob-image: registry.redhat.io/openshift4/ose-cli@sha256:bc35a9fc663baf0d6493cc57e89e77a240a36c43cf38fb78d8e61d3b87cf5cc5
       features.operators.openshift.io/cnf: "false"
@@ -698,9 +698,9 @@ relatedImages:
   name: odh_maas_discovery_image
 - image: quay.io/opendatahub/odh-mcp-lifecycle-module-operator@sha256:b8cc7c1e727ec672a70a528fdbe860b48abfbc4db4df6bded7276c64b1843869
   name: odh_mcp_lifecycle_module_operator_image
-- image: quay.io/opendatahub/odh-mcp-lifecycle-operator-e2e@sha256:a3ceeb53aef60c4a4910ec1e6252bfadf728d4d75cdc6a77e60b171729bb8d34
+- image: quay.io/opendatahub/odh-mcp-lifecycle-operator-e2e@sha256:a2cad36261726657c6baf747ba8f7bbd8fa41b732556d161193bf0c19a1adaba
   name: odh_mcp_lifecycle_operator_e2e_image
-- image: quay.io/opendatahub/odh-mcp-lifecycle-operator@sha256:3c76d3d4dba653ca60496b0417f391dd385bf3eb3641b6c05da2899eba6c6f33
+- image: quay.io/opendatahub/odh-mcp-lifecycle-operator@sha256:ce84de96cd5c850e57baadc09136c5f50695b0b613db66afd2ebe4802e4c7228
   name: odh_mcp_lifecycle_operator_image
 - image: quay.io/opendatahub/odh-mlserver-cuda@sha256:bc2f0e7070b2a2e2f3457b39c44fb6b62fb10e314bb8d74765b1a22516550d9c
   name: odh_mlserver_cuda_image
@@ -738,7 +738,7 @@ relatedImages:
   name: odh_modelexpress_image
 - image: quay.io/opendatahub/odh-notebook-controller@sha256:ed1be99e914043400e7516fd44109bfbda9447e9d2cd9f6bf98fbbcfe02f9743
   name: odh_notebook_controller_image
-- image: quay.io/opendatahub/odh-observability@sha256:30d2321d9e938c873f29e32b1d6662510074bd8fd5caa8ce8725cabb8d73ca7b
+- image: quay.io/opendatahub/odh-observability@sha256:2e61235863be36f944810208e6f4b253d0a4f7d4d7b92bcf016b17d490b47a03
   name: odh_observability_image
 - image: quay.io/opendatahub/odh-ogx-core@sha256:b662a3fee2ff01cdea276e2697dd0f4a49cee11b97d45131f9c3bd605577e561
   name: odh_ogx_core_image
@@ -854,10 +854,10 @@ relatedImages:
   name: odh_workbenches_controller_image
 - image: quay.io/opendatahub/odh-workbenches-operator@sha256:8f6b613595bccdf9ea3a54adce232466d4e2098918219cdaa2737b3f6ff9d414
   name: odh_workbenches_operator_image
-- image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:20ffb41f50fe1bdecee629eaf752c9685c50350b3da284910795934463198d55
+- image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:f0f3eb1f9433be26aa4b8e87b19d469441cceeaec956619844499c86d9a339e9
   name: ""
-- image: quay.io/opendatahub/opendatahub-operator@sha256:edc4d2fae47eb13bd5da1194db8e34db4286141938c413871c944ce2370c19a7
-  name: opendatahub-operator-edc4d2fae47eb13bd5da1194db8e34db4286141938c413871c944ce2370c19a7-annotation
+- image: quay.io/opendatahub/opendatahub-operator@sha256:94143951db38a071e936b0c2320a14389e360d3a182dff9513eb4bb4ed99c583
+  name: opendatahub-operator-94143951db38a071e936b0c2320a14389e360d3a182dff9513eb4bb4ed99c583-annotation
 - image: quay.io/opendatahub/openvino_model_server@sha256:aea6779e5fa366a33e02cf5f8c1937cb4ad5feeb18dae12b0619b2e775168da2
   name: odh_openvino_model_server_image
 - image: quay.io/opendatahub/spark-operator@sha256:4624b9024414c9c6fd5409c37b37b3d345c2c48b7165a6f3885bcc5e531c53d8
