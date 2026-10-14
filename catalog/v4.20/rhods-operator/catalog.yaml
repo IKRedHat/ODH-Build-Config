@@ -11,7 +11,7 @@ name: odh-stable
 package: rhods-operator
 schema: olm.channel
 ---
-image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:a9e7f7cff35dcdc9402b1073585933ed5c2e5b23ce617bb18c63ceba8d1aedf0
+image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:470fdbc470012ee40ea4834601688c388ac48df60def0b56d1d2d718065cc10e
 name: rhods-operator.3.6.0
 package: rhods-operator
 properties:
@@ -298,8 +298,8 @@ properties:
       capabilities: Full Lifecycle
       categories: AI/Machine Learning, Big Data
       certified: "False"
-      containerImage: quay.io/opendatahub/opendatahub-operator@sha256:b90c8f46fb6df970bd350e2a077698237c2ef583b46f5e737477a793a539f385
-      createdAt: "2026-10-14T12:02:50Z"
+      containerImage: quay.io/opendatahub/opendatahub-operator@sha256:5bdb132ab736221574bd56a653260da62d5f5d75edbe260b075cf0a4c6c03006
+      createdAt: "2026-10-14T12:11:56Z"
       description: Operator for deployment and management of Red Hat OpenShift AI
       feast-cronjob-image: registry.redhat.io/openshift4/ose-cli@sha256:bc35a9fc663baf0d6493cc57e89e77a240a36c43cf38fb78d8e61d3b87cf5cc5
       features.operators.openshift.io/cnf: "false"
@@ -656,7 +656,7 @@ relatedImages:
   name: odh_data_connect_hub_flight_image
 - image: quay.io/opendatahub/odh-data-connect-hub-rest@sha256:e9aee185b7d36de68ac37027031ba200a021d961a80e590e90db1ba3e7544d61
   name: odh_data_connect_hub_rest_image
-- image: quay.io/opendatahub/odh-db-operator@sha256:dfaebc17206856879b9bbabf4565df412d0206b5cb3546cb278de60f268d4eab
+- image: quay.io/opendatahub/odh-db-operator@sha256:29418f9457202b2c90ae383d5afb4188ed9c41d52d92f7dad424a084527cd07c
   name: odh_db_operator_image
 - image: quay.io/opendatahub/odh-eval-hub-inspectai@sha256:8d94c6a7c5939799b17a86c1c966abe958971e7aca0c7b6301367e172e47ea4e
   name: odh_eval_hub_inspectai_image
@@ -700,9 +700,9 @@ relatedImages:
   name: odh_maas_discovery_image
 - image: quay.io/opendatahub/odh-mcp-lifecycle-module-operator@sha256:b8cc7c1e727ec672a70a528fdbe860b48abfbc4db4df6bded7276c64b1843869
   name: odh_mcp_lifecycle_module_operator_image
-- image: quay.io/opendatahub/odh-mcp-lifecycle-operator-e2e@sha256:cfda37e72578d205eb55181bd002575bcefc6ea3033b68bbae8fdf281f32bf9d
+- image: quay.io/opendatahub/odh-mcp-lifecycle-operator-e2e@sha256:d0a56ffb2eb7354f69fa8b081162ddd8bc03f0695eaf48593ada90ed084ee626
   name: odh_mcp_lifecycle_operator_e2e_image
-- image: quay.io/opendatahub/odh-mcp-lifecycle-operator@sha256:f464fa2f581bd485d8cfc94654eecf98e0c8ffef5d0e5039c9f77714e66ce26d
+- image: quay.io/opendatahub/odh-mcp-lifecycle-operator@sha256:d4b8aa07cc4e66e43c26ef26b275c80f1e159a0602e348ba2a14f4adb5926c43
   name: odh_mcp_lifecycle_operator_image
 - image: quay.io/opendatahub/odh-mlserver-cuda@sha256:bc2f0e7070b2a2e2f3457b39c44fb6b62fb10e314bb8d74765b1a22516550d9c
   name: odh_mlserver_cuda_image
@@ -860,10 +860,10 @@ relatedImages:
   name: odh_workbenches_controller_image
 - image: quay.io/opendatahub/odh-workbenches-operator@sha256:8f6b613595bccdf9ea3a54adce232466d4e2098918219cdaa2737b3f6ff9d414
   name: odh_workbenches_operator_image
-- image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:a9e7f7cff35dcdc9402b1073585933ed5c2e5b23ce617bb18c63ceba8d1aedf0
+- image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:470fdbc470012ee40ea4834601688c388ac48df60def0b56d1d2d718065cc10e
   name: ""
-- image: quay.io/opendatahub/opendatahub-operator@sha256:b90c8f46fb6df970bd350e2a077698237c2ef583b46f5e737477a793a539f385
-  name: opendatahub-operator-b90c8f46fb6df970bd350e2a077698237c2ef583b46f5e737477a793a539f385-annotation
+- image: quay.io/opendatahub/opendatahub-operator@sha256:5bdb132ab736221574bd56a653260da62d5f5d75edbe260b075cf0a4c6c03006
+  name: opendatahub-operator-5bdb132ab736221574bd56a653260da62d5f5d75edbe260b075cf0a4c6c03006-annotation
 - image: quay.io/opendatahub/openvino_model_server@sha256:aea6779e5fa366a33e02cf5f8c1937cb4ad5feeb18dae12b0619b2e775168da2
   name: odh_openvino_model_server_image
 - image: quay.io/opendatahub/spark-operator@sha256:c605123936e8cb8eb46f9e9ec8726ceeee11dee2f168e84df579c8aa5409d756
