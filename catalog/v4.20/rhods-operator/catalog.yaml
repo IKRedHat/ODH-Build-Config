@@ -11,7 +11,7 @@ name: odh-stable
 package: rhods-operator
 schema: olm.channel
 ---
-image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:ae8eb91841e7cedae06f71cb12f01834d10ef739db02d0aadf2db16650ec8a4a
+image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:3f9157b8a048d3b2b758e0aa9ca1b49c88199542cc08fb882333f1e28f4a1ceb
 name: rhods-operator.3.6.0
 package: rhods-operator
 properties:
@@ -299,7 +299,7 @@ properties:
       categories: AI/Machine Learning, Big Data
       certified: "False"
       containerImage: quay.io/opendatahub/opendatahub-operator@sha256:b051d6b2fdefdfe2beb76f81b526f1103edc85819c9f9914273cf16e481f3a5f
-      createdAt: "2026-10-15T20:41:57Z"
+      createdAt: "2026-10-15T20:55:32Z"
       description: Operator for deployment and management of Red Hat OpenShift AI
       feast-cronjob-image: registry.redhat.io/openshift4/ose-cli@sha256:bc35a9fc663baf0d6493cc57e89e77a240a36c43cf38fb78d8e61d3b87cf5cc5
       features.operators.openshift.io/cnf: "false"
@@ -862,7 +862,7 @@ relatedImages:
   name: odh_workbenches_controller_image
 - image: quay.io/opendatahub/odh-workbenches-operator@sha256:ede03ac02b57f03329f29f8b7b648f084abb5aa85bc2bcfa1e004d1bcd7f29b9
   name: odh_workbenches_operator_image
-- image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:ae8eb91841e7cedae06f71cb12f01834d10ef739db02d0aadf2db16650ec8a4a
+- image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:3f9157b8a048d3b2b758e0aa9ca1b49c88199542cc08fb882333f1e28f4a1ceb
   name: ""
 - image: quay.io/opendatahub/opendatahub-operator@sha256:b051d6b2fdefdfe2beb76f81b526f1103edc85819c9f9914273cf16e481f3a5f
   name: opendatahub-operator-b051d6b2fdefdfe2beb76f81b526f1103edc85819c9f9914273cf16e481f3a5f-annotation
